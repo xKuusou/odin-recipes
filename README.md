@@ -1,5 +1,9 @@
 # odin-recipes
-Working with HTML & CSS to create a basic recipe website.
+Working with HTML & CSS to create a basic recipe website using The Odin Project.
 
-<a href ="https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/recipes">PROJECT: RECIPES</a>
-<a href ="https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/css-foundations">CSS FOUNDATIONS</a>
+* [PROJECT: RECIPES](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/recipes)
+
+* [CSS FOUNDATIONS](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/css-foundations)
+
+#
+[Live Preview](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/recipes)
