@@ -1,38 +1,50 @@
 /* styles.css */
 
-html {
-	background: #17181a;
-	color: white;
+.br {
+	display: block;
+	margin-bottom: .4em;
 }
 
-#topbar {
+body {
+	background: white;
+	color: black;
+}
+
+.topBar {
 	text-align: left;
 	font-size: 20px;
-	background: #202123;
+	background: #DEE4E7;
 	padding: 10px;
 	border-radius: 7px;
 }
 
-.home {
-  background: #202123;
+.menuBtn {
+  background: #DEE4E7;
   border-radius: 4px;
   padding: 5px 10px;
-  color:white;
+  color:black;
   font-weight: 500;
   font-size: 20px;
   border: none;
 }
 
-.home:hover {
+.menuBtn:hover {
   background: #00b175;
+}
+
+.section.header {
+	text-decoration: underline;
 }
 
 .item {
 	text-align: center;
 }
 
-.section {
-	text-decoration: underline;
+.box {
+	background: #DEE4E7;
+	padding: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .main {
@@ -55,21 +67,58 @@ img {
 	position: fixed;
 }
 
-#topBtn {
+.topBtn {
 	display: none;
 	position: fixed;
 	bottom: 2%;
-	left: 10%;
+	left: 8.5%;
 	font-size: 25px;
-	border: none;
-	outline: none;
-	background-color: #202123;
-	color: white;
+	border-width: 1px;
+	background-color: #DEE4E7;
+	color: black;
 	cursor: pointer;
 	padding: 5px 30px;
 	border-radius: 7px;
 }
 
-#topBtn:hover {
+.topBtn:hover {
 	background-color: #00b175;
+}
+
+/* Night Mode Toggle and arguments */
+.darkToggle {
+	background-color: #202123;
+	position: absolute;
+	top: 22px;
+	right:20px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border-width: 1px;
+	transition: .3s;
+}
+
+.dark-toggle {
+	background-color: #DEE4E7;
+}
+
+.dark-body {
+	background: #17181a;
+	color: #d2cec8;
+}
+
+.dark-box {
+	background: #202123;
+	color: #d2cec8;
+}
+
+.dark-menu {
+	background: #202123;
+	color: #d2cec8;
+}
+
+.dark-btn {
+	background: #202123;
+	color: #d2cec8;
+	border: none;
 }

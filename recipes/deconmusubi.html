@@ -7,64 +7,73 @@
 		<link rel="stylesheet" href="../css/styles.css" />
 	</head>
 	<body>
-		<div id="topbar">
+		<div id="topBar" class="topBar">
 			<form action="../index.html">
-                <button class="home" type="submit">Home</button>
+                <button id="menuBtn" class="menuBtn" type="submit">Home</button>
             </form>
+			<button id="darkToggle" class="darkToggle" onclick="darkFunction()"></button>
 		</div>
-        <div class="item">
+        <div id="box1" class="item">
             <h1>Deconstructed Spam Musubi</h1>
 		    <img src="../img/deconmusubimain.jpeg" alt="Deconstructed Musibi" /> 
         </div>
+		<span class="br"></span>
 		<div class="main">
-			
-			<h2 class="section">Description:</h2>
-			<p>
-				I was craving Spam musubi. Without a musubi maker/rice press, I
-				improvised with this deconstructed version.
-			</p>
-			<h3 class="section">Ingredients:</h3>
-			<ul>
-				<li>½ cup white sugar</li>
-				<li>¼ cup lite soy sauce</li>
-				<li>¼ cup oyster sauce</li>
-				<li>
-					2 (12 ounce) cans low-sodium canned luncheon meat (such as SPAM), cut
-					into 1/2-inch cubes
-				</li>
-				<li>2 ½ cups water</li>
-				<li>2 cups medium-grain white rice (such as Calrose)</li>
-				<li>6 tablespoons rice vinegar</li>
-				<li>
-					1 (1.2 ounce) package roasted and seasoned seaweed, torn into 1
-					1/2-inch pieces
-				</li>
-			</ul>
-			<h3 class="section">Directions:</h3>
-			<ol>
-				<li>
-					Mix sugar, soy sauce, and oyster sauce together in a resealable
-					gallon-size bag. Add luncheon meat, seal bag, and turn to coat, gently
-					squeezing to coat luncheon meat. Marinate for at least 1 hour.
-				</li>
-				<li>
-					Bring water to a boil; add rice. Return water to a boil, reduce heat
-					to low, and simmer until liquid is absorbed and rice is tender, about
-					15 minutes.
-				</li>
-				<li>
-					Heat a skillet over medium-high heat; add luncheon meat and marinade.
-					Cook, stirring frequently, until luncheon meat is browned and marinade
-					is absorbed, about 5 minutes.
-				</li>
-				<li>Stir rice vinegar into rice until combined.</li>
-				<li>
-					Stir rice and seaweed together in a bowl; add luncheon meat and mix
-					well.
-				</li>
-			</ol>
+			<div id="box2" class="box">
+				<h2 class="section header">Description:</h2>
+				<p>
+					I was craving Spam musubi. Without a musubi maker/rice press, I
+					improvised with this deconstructed version.
+				</p>
+			</div>
+			<span class="br"></span>
+			<div id="box3" class="box">
+				<h3 class="section header">Ingredients:</h3>
+				<ul>
+					<li>½ cup white sugar</li>
+					<li>¼ cup lite soy sauce</li>
+					<li>¼ cup oyster sauce</li>
+					<li>
+						2 (12 ounce) cans low-sodium canned luncheon meat (such as SPAM), cut
+						into 1/2-inch cubes
+					</li>
+					<li>2 ½ cups water</li>
+					<li>2 cups medium-grain white rice (such as Calrose)</li>
+					<li>6 tablespoons rice vinegar</li>
+					<li>
+						1 (1.2 ounce) package roasted and seasoned seaweed, torn into 1
+						1/2-inch pieces
+					</li>
+				</ul>
+			</div>
+			<span class="br"></span>
+			<div id="box4" class="box">
+				<h3 class="section header">Directions:</h3>
+				<ol>
+					<li>
+						Mix sugar, soy sauce, and oyster sauce together in a resealable
+						gallon-size bag. Add luncheon meat, seal bag, and turn to coat, gently
+						squeezing to coat luncheon meat. Marinate for at least 1 hour.
+					</li>
+					<li>
+						Bring water to a boil; add rice. Return water to a boil, reduce heat
+						to low, and simmer until liquid is absorbed and rice is tender, about
+						15 minutes.
+					</li>
+					<li>
+						Heat a skillet over medium-high heat; add luncheon meat and marinade.
+						Cook, stirring frequently, until luncheon meat is browned and marinade
+						is absorbed, about 5 minutes.
+					</li>
+					<li>Stir rice vinegar into rice until combined.</li>
+					<li>
+						Stir rice and seaweed together in a bowl; add luncheon meat and mix
+						well.
+					</li>
+				</ol>
+			</div>
 		</div>
-        <button onclick="topFunction()" id="topBtn">^</button>
+        <button onclick="topFunction()" id="topBtn" class="topBtn">^</button>
         <script src="../js/recipe.js"></script>
 	</body>
 </html>

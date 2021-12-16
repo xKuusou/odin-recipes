@@ -1,47 +1,76 @@
 <!-- musubi.html -->
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Spam Musubi - xKuusou</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="../css/styles.css">
-    </head>
-    <body>        
-        <div id="topbar">
-            <form action="../index.html">
-                <button class="home" type="submit">Home</button>
-              </form>
-        </div>
-        <div class="item">
-            <h1>Spam Musubi</h1>
-            <img src="../img/musubimain.jpeg" alt="Delicious Musibi">   
-        </div>
-        <div class="main">
-            <h2 class="section">Description:</h2>
-            <p>
-                Spam Musubi is a popular snack in Hawaii. It is a type of sushi that has marinated cooked spam in sushi.
-            </p>
-            <h3 class="section">Ingredients:</h3>
-            <ul>
-                <li>2 cups uncooked short-grain white rice </li>
-                <li>2 cups water </li>
-                <li>6 tablespoons rice vinegar </li>
-                <li>¼ cup soy sauce </li>
-                <li>¼ cup oyster sauce </li>
-                <li>½ cup white sugar </li>
-                <li>1 (12 ounce) container fully cooked luncheon meat (e.g. Spam) </li>
-                <li>5 sheets sushi nori (dry seaweed) </li>
-                <li>2 tablespoons vegetable oil </li>
-            </ul>
-            <h3 class="section">Directions:</h3>
-            <ol>
-                <li>Soak uncooked rice for 4 hours; drain and rinse.</li>
-                <li>In a saucepan bring 2 cups water to a boil. Add rice and stir. Reduce heat, cover, and simmer for 20 minutes. Stir in rice vinegar, and set aside to cool.</li>
-                <li>In a separate bowl, stir together soy sauce, oyster sauce, and sugar until sugar is completely dissolved. Slice luncheon meat lengthwise into 10 slices, or to desired thickness, and marinate in sauce for 5 minutes.</li>
-                <li>In a large skillet, heat oil over medium high heat. Cook slices for 2 minutes per side, or until lightly browned. Cut nori sheets in half and lay on a flat work surface. Place a rice press in the center of the sheet, and press rice tightly inside. Top with a slice of luncheon meat, and remove press. Wrap nori around rice mold, sealing edges with a small amount of water. (Rice may also be formed by hand in the shape of the meat slices, 1 inch thick.) Musubi may be served warm or chilled.</li>
-            </ol>
-        </div>
-        <button onclick="topFunction()" id="topBtn">^</button>
-        <script src="../js/recipe.js"></script>
-    </body>
+	<head>
+		<title>Spam Musubi - xKuusou</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="../css/styles.css" />
+	</head>
+	<body>
+		<div id="topBar" class="topBar">
+			<form action="../index.html">
+				<button id="menuBtn" class="menuBtn" type="submit">Home</button>
+			</form>
+			<button id="darkToggle" class="darkToggle" onclick="darkFunction()"></button>
+		</div>
+		<div id="box1" class="item">
+			<h1>Spam Musubi</h1>
+			<img src="../img/musubimain.jpeg" alt="Delicious Musibi" />
+		</div>
+        <span class="br"></span>
+		<div class="main">
+			<div id="box2" class="box">
+				<h2 class="section header">Description:</h2>
+				<p>
+					Spam Musubi is a popular snack in Hawaii. It is a type of sushi that
+					has marinated cooked spam in sushi.
+				</p>
+			</div>
+			<span class="br"></span>
+			<div id="box3" class="box">
+				<h3 class="section header">Ingredients:</h3>
+				<ul>
+					<li>2 cups uncooked short-grain white rice</li>
+					<li>2 cups water</li>
+					<li>6 tablespoons rice vinegar</li>
+					<li>¼ cup soy sauce</li>
+					<li>¼ cup oyster sauce</li>
+					<li>½ cup white sugar</li>
+					<li>1 (12 ounce) container fully cooked luncheon meat (e.g. Spam)</li>
+					<li>5 sheets sushi nori (dry seaweed)</li>
+					<li>2 tablespoons vegetable oil</li>
+				</ul>
+			</div>
+			<span class="br"></span>
+			<div id="box4" class="box">
+				<h3 class="section header">Directions:</h3>
+				<ol>
+					<li>Soak uncooked rice for 4 hours; drain and rinse.</li>
+					<li>
+						In a saucepan bring 2 cups water to a boil. Add rice and stir.
+						Reduce heat, cover, and simmer for 20 minutes. Stir in rice vinegar,
+						and set aside to cool.
+					</li>
+					<li>
+						In a separate bowl, stir together soy sauce, oyster sauce, and sugar
+						until sugar is completely dissolved. Slice luncheon meat lengthwise
+						into 10 slices, or to desired thickness, and marinate in sauce for 5
+						minutes.
+					</li>
+					<li>
+						In a large skillet, heat oil over medium high heat. Cook slices for
+						2 minutes per side, or until lightly browned. Cut nori sheets in
+						half and lay on a flat work surface. Place a rice press in the
+						center of the sheet, and press rice tightly inside. Top with a slice
+						of luncheon meat, and remove press. Wrap nori around rice mold,
+						sealing edges with a small amount of water. (Rice may also be formed
+						by hand in the shape of the meat slices, 1 inch thick.) Musubi may
+						be served warm or chilled.
+					</li>
+				</ol>
+			</div>
+		</div>
+		<button onclick="topFunction()" id="topBtn" class="topBtn">^</button>
+		<script src="../js/recipe.js"></script>
+	</body>
 </html>
